@@ -1,17 +1,45 @@
-img{
-    height: auto; 
-    width: auto; 
-    max-width: 300px; 
-    max-height: 300px;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+
+background-color:rgba(30, 26, 26, 0.829);
+
+}
+h2{
+    color: white;
+    
 }
 
+
+img{
+    height: 220px;
+    width: 240px;
+    max-width: fit-content;
+    max-height: fit-content;
+    
+}
+
+.textContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+
+}
+#score{
+    margin-left: 20px;
+}
 
 #grid{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     column-gap: 1px;
     gap: 15px;
-    margin: auto;
+    margin: 0 auto;
     width: 1200px;
-    padding-top: 70px;
+    padding-top: 20px;
+    
+    
 }
